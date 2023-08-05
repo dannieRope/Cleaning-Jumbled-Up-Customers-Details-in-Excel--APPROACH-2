@@ -1,3 +1,7 @@
+![excel](https://github.com/dannieRope/Cleaning-Jumbled-Up-Customers-Details-in-Excel--APPROACH-1/assets/132214828/cea2c4b1-7fd1-477f-aa46-bb6214876345)
+
+# INTRODUCTION
+
 After my first attempt to clean the disorganized customer details dataset, I've been searching for a more straightforward yet effective method to tidy up the messy data using Excel formulas. Finally, my search led me to the solution I was seeking. This article provides a detailed approach to cleaning the dataset using the Excel formula I discovered.
 
 The dataset cleaning process involves the utilization of several Excel functions, including:
@@ -20,9 +24,9 @@ The information includes customer names, addresses, ages, and genders.
 
 The primary goal of this data cleaning exercise is to extract and organize the customer details into separate columns, ensuring that each piece of information such as customer names, addresses, ages, and genders occupies its designated column for a well-structured dataset.
 
-DATA CLEANING PROCESS
+# DATA CLEANING PROCESS
 
-To extract the customer names, the following formula was used:
+*1. To extract the customer names, the following formula was used:*
 
 =LET(a, TEXTAFTER(A13, "Name"), b, TEXTBEFORE(a, "Address"), b)
 
@@ -32,7 +36,7 @@ This formula uses the LET() function to define variables a and b. The TEXTAFTER(
 
 
 
-To extract the addresses, the following formula was used:
+*2. To extract the addresses, the following formula was used:*
 
 =LET(a, TEXTBEFORE(A13, "Age"), b, TEXTAFTER(a, "Address"), b)
 
@@ -40,7 +44,7 @@ Similarly, this formula also uses the LET() function to define variables a and b
 
 ![address](https://github.com/dannieRope/Cleaning-Jumbled-Up-Customers-Details-in-Excel--APPROACH-1/assets/132214828/9f81cc7a-e93e-4dba-a530-3b865a72946c)
 
-To extract the customer age details the following formula was used:
+*3. To extract the customer age details the following formula was used:*
 
 =LET(a, TEXTAFTER(A13, "Age"), b, TRIM(LEFT(a, 3)), b)
 
@@ -48,7 +52,7 @@ As before, this formula uses the LET() function to define variables a and b. The
 
 ![age](https://github.com/dannieRope/Cleaning-Jumbled-Up-Customers-Details-in-Excel--APPROACH-1/assets/132214828/90416ef7-d6e0-4eba-bc9c-96e3fd7d0b53)
 
-To extract the gender details, the following formula was used:
+*4. To extract the gender details, the following formula was used:*
 
 =TRIM(TEXTAFTER(A13, "Gender"))
 
@@ -63,4 +67,4 @@ After applying these formulas, you will have all the customer information, inclu
 ![final](https://github.com/dannieRope/Cleaning-Jumbled-Up-Customers-Details-in-Excel--APPROACH-1/assets/132214828/9e743c53-4b34-4d11-aab2-37471bc5c41a)
 
 
-Check out the first approach here.
+Check out the first approach [here](https://github.com/dannieRope/Cleaning-Jumbled-Up-Customers-Details-in-Excel--APPROACH-2/tree/main).
