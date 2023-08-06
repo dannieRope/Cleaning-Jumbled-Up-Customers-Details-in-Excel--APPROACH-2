@@ -67,4 +67,4 @@ After applying these formulas, you will have all the customer information, inclu
 ![final](https://github.com/dannieRope/Cleaning-Jumbled-Up-Customers-Details-in-Excel--APPROACH-1/assets/132214828/9e743c53-4b34-4d11-aab2-37471bc5c41a)
 
 
-Check out the first approach [here](https://github.com/dannieRope/Cleaning-Jumbled-Up-Customers-Details-in-Excel--APPROACH-2/tree/main).
+Check out the first approach [here](https://github.com/dannieRope/Cleaning-Jumbled-Up-Customers-Details-in-Excel--APPROACH-1).
