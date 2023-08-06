@@ -14,7 +14,7 @@ The dataset cleaning process involves the utilization of several Excel functions
 
 These functions play a crucial role in achieving an organized and refined dataset.
 
-The disorganized dataset was downloaded from forsightBi using the provided link. It contains customer details that are jumbled up together in a single cell within the spreadsheet.
+The disorganized dataset was downloaded from [forsightBi](https://foresightbi.com.ng/microsoft-power-bi/dirty-data-samples-to-practice-on/). It contains customer details that are jumbled up together in a single cell within the spreadsheet.
 
 The information includes customer names, addresses, ages, and genders.
 
